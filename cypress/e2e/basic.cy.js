@@ -4,6 +4,6 @@ describe('sample render test', () => {
   });
 
   it('displays the title text', () => {
-    cy.get('h1').contains('Harshit Mehul from The Pearson acquires Horizon Unlimited');
+    cy.get('h1').contains('A Decade of Leadership: Harshit Mehul Propels Horizon Unlimited with Groundbreaking Cost-Saving Product Launch');
   });
 });
