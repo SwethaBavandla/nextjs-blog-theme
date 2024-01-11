@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'A Decade of Leadership: Harshit Mehul Propels Horizon Unlimited with Groundbreaking Cost-Saving Product Launch';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : 'This is a fake website and with fictional content..';
 
   return {
     name,
