@@ -9,6 +9,7 @@ export const getGlobalData = () => {
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved';
 
+
   return {
     name,
     blogTitle,
