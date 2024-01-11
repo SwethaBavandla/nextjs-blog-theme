@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Latest News 24/7';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Harshit Mehul from The Pearson acquires Horizon Unlimited';
+    : 'A Decade of Leadership: Harshit Mehul Propels Horizon Unlimited with Groundbreaking Cost-Saving Product Launch';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
